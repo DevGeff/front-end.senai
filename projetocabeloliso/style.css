@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url(imagens/fundomain.jpg);
+    background-size: cover;
+    
+
+}
+
+header{
+    background-color: aliceblue;
+    height: 150px;
+  
+}
+
+.logo{
+    justify-content: space-around;
+    display: flex;
+    
+}
+
+.btn-login{
+    display: flex;
+    align-items: center;
+    width: 113px;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+
+}
+nav>ul{
+    display: flex;
+    list-style-type: none;
+    padding-left: 100px;
+
+}
+li{
+    margin:0px 35px;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.814);
+    
+
+}
+section{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    
+    
+}
+section>img{
+    width: 600px;
+}
+section>p{
+    font-size: 25px;
+    margin:0px 25px;
+}
+
+main>h1{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+    
+}
+
+footer{
+    background-color: rgba(2, 2, 2, 0.677);
+    display: flex;
+    height: 170px;
+    color: aliceblue;
+    justify-content: space-around;
+
+}
+
+.li-footer{
+    display:flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
