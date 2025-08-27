@@ -1,7 +1,0 @@
-body{ 
-	background-image:url("trailer/vovo-foto");
-}
-
-aside{
-	margin: 1px;
- }
