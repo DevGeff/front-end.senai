@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+
+
+}
+	
+	h1{text-align:start;
+	font-size:45px;}
+	b{font-size:20px;
+	}
+	div.objetivo{
+	text-align:center;
+	display:flex;
+	background-color:rgb(204, 204, 204);
+	border-radius:9px;
+	border:2px black solid;
+	box-shadow:inset 1px 0px 4px 0px black;
+    padding-left: 0px;
+    margin-left: 15px;
+	
+	}
+	
+	ul{text-align:justify;
+	}
+	.contato{
+	text-align: center;
+	background-color:rgb(204, 204, 204);
+	border-radius:9px;
+	border:2px black solid;
+	box-shadow:inset 1px 0px 4px 0px black;
+	margin-left: 15px;
+	
+	
+	text-align: justify;
+	flex-direction: column;
+    padding-left: 20PX;
+		}
+	li{font-size:20px;
+	}
+	p{font-size:20px;
+	}
+	h2{font-family:impact;
+	font-weight:lighter;
+    margin: 10px 0px;
+    margin-left: 20px;
+	}
+	header{background-image: linear-gradient(to top, #ffffff, #011146);
+	padding:20px;
+    margin-bottom:-10px ;
+    padding: 30px;
+	}
+    main{
+        padding: 10px;
+    display: flex;
+    
+    
+    box-shadow: 1px 1px 1px 1px black;
+    }
+    p{
+        margin-left:30px;
+        padding: 20px;
+    }
+    div.formacao{
+        margin-left:20px ;
+    }
+    li{
+        margin-left: 25px;
+        
+    }
+    img{
+        margin-left: 20px;
+    }
+    .divdireita{
+       width: 300px;
+      
+       border-radius: 10px;
+
+   
+    }
+    .divesquerda{
+        
+    }
+    article{
+           padding: 10px;
+    display: block;
+    inline-size: min-content;
+    
+    box-shadow: 1px 1px 1px 1px black;
+
+    }
+    aside{
+        float: inline-end;
+        padding: 30px;
+    }
