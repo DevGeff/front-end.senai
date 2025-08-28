@@ -16,6 +16,8 @@ body{
 header{
     background-color: aliceblue;
     height: 150px;
+    position: fixed;
+    width: 100%;
   
 }
 
@@ -146,7 +148,7 @@ a{
 
 @media (min-width:1024px){
     .container-img{
-        width: 50%;
+        width: 90%;
     }
     .image-box{
         grid-template-columns: repeat(2, 1fr);
