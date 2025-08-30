@@ -15,10 +15,19 @@ body{
 
 header{
     background-color: aliceblue;
+    height: 100px;
+    
+    bottom: 0;
+    width: 100%;
+  
+}
+
+.cab{
+     background-color: aliceblue;
     height: 150px;
     position: fixed;
     width: 100%;
-  
+
 }
 
 .logo{
@@ -172,7 +181,7 @@ a{
     color: aliceblue;
 }
 
-@media (min-width:1024px){
+@media ( max-width:1024px){
     .container-img{
         width: 90%;
     }
@@ -184,15 +193,47 @@ a{
         font-size: 24px;
     }
 
+    .mobile{
+        
+    }
+    
 
 } 
 
 @media (max-width:500px){
     header{
-        height: 170px;
+        position: fixed;
+        bottom: 0;
+                background: gray;
+        height: 50px
+    }
+  
+    div.desktop{
+        display: none;
+    }
+    
+    
+    .ico-menu{
+        width: 23px;
+        
+    }
+    nav{
+        background-color: gray;
     }
 
-    nav{
+    nav>ul{
+            gap: 58px;
+            
+    }
+
+        a>img{
+            display: flex;
+            justify-content: space-around;
+            
+        }
+    .menu{
+        display: flex;
+        
        
     }
 
