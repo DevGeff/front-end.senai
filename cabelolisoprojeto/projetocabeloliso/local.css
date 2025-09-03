@@ -2,9 +2,6 @@
     padding: 0px;
     margin: 0px;
 }
-
-
-
         
 
 body{
@@ -19,6 +16,10 @@ header{
     position: fixed;
     width: 100%;
   
+}
+
+.titulo{
+    text-align: center;
 }
 
 .logo{
@@ -214,6 +215,4 @@ li>img{
 footer>ul{
 margin-right: 25px;
 }
-
-
 }
