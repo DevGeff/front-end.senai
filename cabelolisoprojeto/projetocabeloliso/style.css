@@ -246,7 +246,10 @@ a{
                 background: gray;
         height: 50px
     }
-  
+    
+    main{
+        padding-top: 100px;
+    }
     div.desktop{
         display: none;
     }
@@ -256,6 +259,9 @@ a{
         width: 23px;
         display: ;
         
+    }
+    .ico-mais{
+        width: 43px;
     }
 
     .footer-desktop{
@@ -278,6 +284,7 @@ a{
 
     nav>ul{
             gap: 30px;
+            
             
     }
     span{
@@ -306,6 +313,7 @@ a{
     margin-bottom: 15px;
     justify-content: flex-end;
     margin-top: 0px;
+   
     
 }
 
@@ -366,10 +374,19 @@ footer{
 
 }
 .aside-logo{
-    position: fixed;
-    top: 0;
-padding-bottom: 100px;
-display: ;
+        position: fixed;
+        top: 0;
+        /* padding-bottom: 30px; */
+        /* display: grid
+; */
+        display: flex
+;
+        flex-wrap: nowrap;
+        align-items: center;
+        height: 82px;
+        background-color: rgb(232, 240, 254);
+        padding-left: 10px;
+
 }
 
 
