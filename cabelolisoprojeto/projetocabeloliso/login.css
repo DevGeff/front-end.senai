@@ -1,4 +1,8 @@
 
+        header{
+      
+      text-align: center;
+    }
     body {
       font-family:Garamond;
       background-color:	#F0FFFF;
@@ -10,7 +14,7 @@
 
     .form{
       background:	#F0FFFF;
-      padding: 20px 25px;
+      padding: 10px 25px;
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0,0,0,0);
       width: 500px;
@@ -62,3 +66,21 @@
 textarea{
         border-radius: 15px;
 }
+
+@media  (min-width:500px) and ( max-width:1024px){
+        body{
+          font-size: 50px;
+        }
+
+        button {
+      background-color: #2F4F4F	;
+      color: white;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.5s;
+      font-size: 50px;
+    }
+
+} 
+

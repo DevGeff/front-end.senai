@@ -78,9 +78,9 @@ nav{
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    background-color: aqua;
     box-sizing: border-box;
     align-items: center;
+    
 
 }
 span{
@@ -181,6 +181,7 @@ footer{
     color: aliceblue;
     justify-content: space-around;
     width: 100%;
+    color: white;
 
 }
 ul{
@@ -191,6 +192,7 @@ ul{
     display:flex;
     align-items: center;
     text-decoration: none;
+    color: white;
 }
 
 .footer-desktop{
@@ -204,7 +206,11 @@ ul{
 
 a{
     text-decoration: none;
-    color: aliceblue;
+    
+}
+
+a:visited{
+    color: black;
 }
 
 
@@ -388,6 +394,7 @@ footer{
     width: 100%;
     justify-content: space-around;
     padding: 0px 0px 0px 98px; */
+    
 }
 .ul-contato{
 
@@ -396,7 +403,7 @@ footer{
 
 }
 .ul-network{
-
+    
 }
 .aside-logo-mobile{
     width: 100%;
